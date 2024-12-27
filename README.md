@@ -39,59 +39,38 @@ The program operates via standard input. Commands must follow the specified form
 
 1.  **Add a Congregation**:
 
-    plaintext
-
-    Copy code
-
-    `addCongregation "TechFest" "Conference" "2025-01-01" "2025-01-05"`
+    ```bash
+    addCongregation "TechFest" "Conference" "2025-01-01" "2025-01-05"`
 
 2.  **Delete a Congregation**:
 
-    plaintext
-
-    Copy code
-
-    `deleteCongregation "TechFest"`
+    ```bash
+    deleteCongregation "TechFest"
 
 3.  **Add a Venue**:
 
-    plaintext
-
-    Copy code
-
-    `addVenue "Grand Hall" "123 Main St:Cityville:StateX:12345:CountryY" 500`
+    ```bash
+    addVenue "Grand Hall" "123 Main St:Cityville:StateX:12345:CountryY" 500
 
 4.  **Reserve a Venue**:
 
-    plaintext
-
-    Copy code
-
-    `reserveVenue "Grand Hall" "CountryY" "TechFest"`
+    ```bash
+    reserveVenue "Grand Hall" "CountryY" "TechFest"
 
 5.  **Add an Event**:
 
-    plaintext
-
-    Copy code
-
-    `addEvent "TechFest" "Grand Hall" "CountryY" "2025-01-03" "10:00" "12:00" "Opening Ceremony"`
+    ```bash
+    addEvent "TechFest" "Grand Hall" "CountryY" "2025-01-03" "10:00" "12:00" "Opening Ceremony"
 
 6.  **Show Events**:
 
-    plaintext
-
-    Copy code
-
-    `showEvents "Grand Hall" "CountryY" "2025-01-03"`
+    ```bash
+    showEvents "Grand Hall" "CountryY" "2025-01-03"
 
 7.  **End Program**:
 
-    plaintext
-
-    Copy code
-
-    `End`
+    ```bash
+    End
 
 Output Format
 -------------
