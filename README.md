@@ -1,6 +1,6 @@
 # Event Scheduler
 
-The **Advanced Scheduler** is a comprehensive C++ program designed to manage venues, congregations, and events efficiently. It supports functionalities like adding and removing venues, scheduling events, and managing reservations with strict validation rules.
+This is a comprehensive C++ program designed to manage venues, congregations, and events efficiently. It supports functionalities like adding and removing venues, scheduling events, and managing reservations with strict validation rules.
 
 ## Features
 
